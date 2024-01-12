@@ -1,0 +1,22 @@
+exp_name: classifier_test_adam_linear_VGG19
+dataset: openImage
+concepts: vec
+
+k: 1
+d: 300
+
+freeze: true                                                                        
+l_rate: 1e-4
+
+alpha: 1
+gamma: 0
+
+optim: RMSprop
+momentum: 0.9
+weight_decay: 0
+
+start_epoch: 1
+end_epoch: 21
+
+train_batch_size: 96
+test_batch_size: 96
